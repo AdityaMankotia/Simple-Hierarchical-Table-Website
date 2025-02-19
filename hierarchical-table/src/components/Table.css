@@ -1,0 +1,48 @@
+.table-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-container th {
+  background-color: #f4f4f4;
+}
+
+.parent-row {
+  font-weight: bold;
+}
+
+.child-row td:first-child {
+  padding-left: 30px; /* Indent child rows */
+}
+
+.input-field {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
